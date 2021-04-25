@@ -7,7 +7,7 @@ const Usuario = require('./models/usuario');
 app.use(cors());
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb+srv://doemais1:doemais123@cluster0.xo06r.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://api-access:NrghIln6w4R8Na40@cluster0.xo06r.mongodb.net/doemais-db?retryWrites=true&w=majority')
     .then(() => {
         console.log("Conexão OK")
     }).catch(() => {
