@@ -1,0 +1,9 @@
+button{
+    background-color:#610B0B;
+}
+
+mat-dialog-actions, button{
+    color: white;
+    align-items: center;
+    justify-content: center;
+  }
