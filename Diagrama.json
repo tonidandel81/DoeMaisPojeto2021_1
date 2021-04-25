@@ -1,0 +1,58 @@
+{
+    "Instituição":{
+       "CnpjInstituição":"79.995.424/0001-93",
+       "Nome":"Hospital do Coração",
+       "Endereço":{
+          "Rua":"Rua Taquari, 512",
+          "Cidade":"São Paulo",
+          "Estado":"São Paulo",
+          "CEP":"03345-000"
+       },
+       "Telefones":[
+          {
+             "Tipo":"Principal",
+             "Número":"2036-2937"
+          },
+          {
+             "Tipo":"Alternativo",
+             "Número":"4012-2937"
+          }
+       ]
+    },
+
+    "Campanha":{
+       "IdCampanha":"362",
+       "CnpjInstitução": "79.995.424/0001-93",
+       "Título":"O coração precisa de você",
+       "Tipo Sanguíneo": "A+",
+       "Datas":{
+          "Início":"16/04/2021",
+          "Mês":"30/04/2021"
+       },
+       "Horário":{
+          "Início":"08h00",
+          "Fim":"16h00"
+       }
+    },
+    
+    "Agendamento":{
+       "IdCampanha":"362",
+       "CpfDoador":"334.846.220-76",
+       "Data":"16/04/2021",
+       "Horário":"13h35"
+    },
+    
+    
+    
+    "Doador":{
+       "CpfDoador":"334.846.220-76",
+       "Nome":"Bruno Filipe Fernandes",
+       "Idade":"29",
+       "Endereço":"Rua Sagrada, 10",
+       "Telefones":[
+          {"Tipo":"Principal", "Número":"2943-1000"},
+          {"Tipo":"Alternativo", "Número":"9.8726-1381"}
+       ],
+       "Tipo Sanguíneo": "A+"
+    }
+ }
